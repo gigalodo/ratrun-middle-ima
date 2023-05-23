@@ -1,17 +1,17 @@
 <template>
- <div>
-   <AppHeader />
-   <NuxtPage />
-   <p>フッター！</p>
- </div>
+  <div>
+    <AppHeader />
+    <NuxtPage />
+    <p>フッタaaa</p>
+  </div>
 </template>
 
 
 <script>
-import{AppHeader}from"../components/Organisms/Header";
+import { AppHeader } from "../components/Organisms/Header";
 
 export default {
-  components:{AppHeader}
+  components: { AppHeader },
 };
 </script>
 
