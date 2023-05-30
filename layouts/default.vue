@@ -2,16 +2,17 @@
   <div>
     <AppHeader />
     <NuxtPage />
-    <p>フッタaaa</p>
+    <AppFooter />
   </div>
 </template>
 
 
 <script>
+import { AppFooter } from "../components/Organisms/Footer";
 import { AppHeader } from "../components/Organisms/Header";
 
 export default {
-  components: { AppHeader },
+  components: { AppHeader, AppFooter },
 };
 </script>
 
