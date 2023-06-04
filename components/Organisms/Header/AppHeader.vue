@@ -41,6 +41,8 @@ li {
 }
 a {
   text-decoration: none;
+  color: white;
+  background-color: black;
 }
 </style>
 
