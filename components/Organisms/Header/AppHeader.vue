@@ -42,7 +42,13 @@ li {
 a {
   text-decoration: none;
   color: white;
-  background-color: black;
+}
+header {
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
 }
 </style>
 
